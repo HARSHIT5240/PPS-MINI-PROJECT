@@ -1,3 +1,5 @@
+// ******************** PPS MINI PROJECT B. TECH 1st YEAR ********************
+// *********************** C PROGRAM FOR BANKING SYSTEM **********************
 #include <stdio.h>
 struct customer
 {
@@ -20,7 +22,7 @@ int main()
     accept(data, n);
     do
     {
-        printf("\nBanking System Menu :\n");
+        printf("\nBanking System Menu\n");
         printf("Press 1 to display all records.\n");
         printf("Press 2 to search a record.\n");
         printf("Press 3 to deposit amount.\n");

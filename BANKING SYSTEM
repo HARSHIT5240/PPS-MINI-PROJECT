@@ -1,5 +1,6 @@
 // ******************** PPS MINI PROJECT B. TECH 1st YEAR ********************
 // *********************** C PROGRAM FOR BANKING SYSTEM **********************
+
 #include <stdio.h>
 struct customer
 {
@@ -84,7 +85,7 @@ void accept(struct customer list[80], int s)
 void display(struct customer list[80], int s)
 {
     int i;
-    printf("\n\nA/c No\tName\tBalance\n");
+    printf("\n\nA/c No\tName\t\tBalance\n");
     for (i = 0; i < s; i++)
     {
         printf("%d\t%s\t%d\n", list[i].account_no, list[i].name,list[i].balance);

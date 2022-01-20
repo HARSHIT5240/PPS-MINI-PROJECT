@@ -17,7 +17,10 @@ int main()
 {
     struct customer data[20];
     int n, choice, account_no, amount, index;
-    printf("Banking System\n\n");
+    printf("\n\n\t\t\t\t\t\t\t\tBanking System\n");
+    printf("\t\t\t\t\t\t\t   _________________________\n\n");
+    printf("\t\t\t\t\t\t\tWELCOME TO ABC INTERNATION BANK\n");
+    printf("\t\t\t\t\t\t\t________________________________\n\n");
     printf("Number of customer records you want to enter? : ");
     scanf("%d", &n);
     accept(data, n);
@@ -81,7 +84,7 @@ void accept(struct customer list[80], int s)
         scanf("%d", &list[i].account_no);
         printf("Enter name : ");
         scanf("%s",&list[i].name);
-        list[i].balance = 0;
+        list[i].balance = 2000;
     } 
 }
 void display(struct customer list[80], int s)

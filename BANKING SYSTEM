@@ -17,10 +17,11 @@ int main()
 {
     struct customer data[20];
     int n, choice, account_no, amount, index;
-    printf("\n\n\t\t\t\t\t\t\t\tBanking System\n");
-    printf("\t\t\t\t\t\t\t   _________________________\n\n");
-    printf("\t\t\t\t\t\t\tWELCOME TO ABC INTERNATION BANK\n");
-    printf("\t\t\t\t\t\t\t________________________________\n\n");
+    printf("\n\n\n\n\n\t\t\t\t\t\t PROGRAMMING FOR PROBLEM SOLVING MINI-PROJECT [CLAP-4]\n");
+    printf("\n\n\t\t\t\t\t\t\t\t     Banking System\n");
+    printf("\t\t\t\t\t\t\t    _________________________________\n\n");
+    printf("\t\t\t\t\t\t\t     WELCOME TO ABC INTERNATION BANK\n");
+    printf("\t\t\t\t\t\t\t    _________________________________\n\n");
     printf("Number of customer records you want to enter? : ");
     scanf("%d", &n);
     accept(data, n);

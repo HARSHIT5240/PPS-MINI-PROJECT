@@ -48,7 +48,7 @@ int main()
                 index = search(data, n, account_no);
                 if (index ==  - 1)
                 {
-                    printf("Record not found : ");
+                    printf("Record not found\n\n");
                 }
                 else
                 {

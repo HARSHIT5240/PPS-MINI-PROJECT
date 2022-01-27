@@ -17,11 +17,17 @@ int main()
 {
     struct customer data[20];
     int n, choice, account_no, amount, index;
-    printf("\n\n\n\n\n\t\t\t\t\t\t PROGRAMMING FOR PROBLEM SOLVING MINI-PROJECT [CLAP-4]\n");
-    printf("\n\n\t\t\t\t\t\t\t\t     Banking System\n");
-    printf("\t\t\t\t\t\t\t    _________________________________\n\n");
-    printf("\t\t\t\t\t\t\t     WELCOME TO ABC INTERNATION BANK\n");
-    printf("\t\t\t\t\t\t\t    _________________________________\n\n");
+    printf("\n\n\n\n\n");
+    printf("\t\t\t\t\t\t PROGRAMMING FOR PROBLEM SOLVING MINI-PROJECT [CLAP-4]");
+    printf("\n\n\n");
+    printf("\t\t\t\t\t\t\t\t     Banking System");
+    printf("\n\n");
+    printf("\t\t\t\t\t\t\t    _________________________________");
+    printf("\n\n");
+    printf("\t\t\t\t\t\t\t     WELCOME TO ABC INTERNATION BANK");
+    printf("\n\n");
+    printf("\t\t\t\t\t\t\t    _________________________________");
+    printf("\n\n");
     printf("Number of customer records you want to enter? : ");
     scanf("%d", &n);
     accept(data, n);
@@ -52,9 +58,7 @@ int main()
                 }
                 else
                 {
-                    printf("A/c Number: %d\nName: %s\nBalance: %d\n",
-                    data[index].account_no, data[index].name,
-                    data[index].balance);
+                    printf("A/c Number: %d\nName: %s\nBalance: %d\n", data[index].account_no, data[index].name, data[index].balance);
                 }
                 break;
             case 3:
@@ -139,3 +143,5 @@ void withdraw(struct customer list[], int s, int number, int amt)
         list[i].balance -= amt;
     }
 }
+// *************** END OF THE PPS-MINI-PROJECT ***************
+// ********************** THANK YOU **************************

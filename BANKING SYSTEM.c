@@ -143,5 +143,6 @@ void withdraw(struct customer list[], int s, int number, int amt)
         list[i].balance -= amt;
     }
 }
+
 // *************** END OF THE PPS-MINI-PROJECT ***************
 // ********************** THANK YOU **************************

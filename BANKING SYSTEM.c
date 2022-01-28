@@ -22,11 +22,11 @@ int main()
     printf("\n\n\n");
     printf("\t\t\t\t\t\t\t\t     Banking System");
     printf("\n\n");
-    printf("\t\t\t\t\t\t\t    _________________________________");
+    printf("\t\t\t\t\t\t\t    ___________________________________");
     printf("\n\n");
-    printf("\t\t\t\t\t\t\t     WELCOME TO ABC INTERNATION BANK");
+    printf("\t\t\t\t\t\t\t     WELCOME TO ABC INTERNATIONAL BANK");
     printf("\n\n");
-    printf("\t\t\t\t\t\t\t    _________________________________");
+    printf("\t\t\t\t\t\t\t    ___________________________________");
     printf("\n\n");
     printf("Number of customer records you want to enter? : ");
     scanf("%d", &n);

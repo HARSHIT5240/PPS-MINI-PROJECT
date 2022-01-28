@@ -74,6 +74,7 @@ int main()
                 printf("Enter amount to withdraw : ");
                 scanf("%d", &amount);
                 withdraw(data, n, account_no, amount);
+                break;
             default:
                 printf("INVALID CHOICE...\nTRY AGAIN.");
         }
